@@ -13,6 +13,12 @@ ul {
     padding: 1rem;
 }
 
+@media(min-width: 480px) {
+    ul {
+        width: 90%;
+    }
+}
+
 @media(min-width: 786px) {
     ul {
         width: 80%;

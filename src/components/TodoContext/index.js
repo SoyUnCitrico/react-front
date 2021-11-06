@@ -32,7 +32,6 @@ const TodoProvider = (props) => {
     newTodos.push({
       completed: false,
       text: text,
-      index: "50",
     });
     saveTodos(newTodos);
   };

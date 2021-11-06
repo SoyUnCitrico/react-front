@@ -15,8 +15,6 @@ const TodoForm = () => {
   }
 
   const onCancel = () => {
-      console.log("CANCEL");
-      // let state = openModal;
       setOpenModal(!openModal)
   }
 

@@ -28,7 +28,7 @@ const AppUI = () => {
         {(!loading && !searchedTodos.length) && <p>¡Crea tu primer TODO!</p>}
         { searchedTodos.map(todo => (
           <TodoItem
-            key={todo.index}
+            key={todo.text}
             text={todo.text}
             completed={todo.completed}
             onComplete={()=> completeTodo(todo.text)}
