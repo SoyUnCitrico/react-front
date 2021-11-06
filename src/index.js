@@ -9,9 +9,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// ReactDOM.createPortal(
-//   < />,
-//   document.getElementById('root')
-// );
-
 // reportWebVitals();

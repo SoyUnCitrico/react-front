@@ -1,7 +1,20 @@
+section {
+    display: grid;
+    justify-items: center;
+}
+
 ul {
+    display: grid;
+    width: 95%;
     padding-inline-start: 0px;
     margin-block-start: 0rem;
     margin-block-end: 0rem;
     list-style: none;
     padding: 1rem;
+}
+
+@media(min-width: 786px) {
+    ul {
+        width: 80%;
+    }
 }
