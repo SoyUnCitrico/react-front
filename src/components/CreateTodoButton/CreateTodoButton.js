@@ -2,15 +2,13 @@ import React from "react";
 import './CreateTodoButton.css';
 
 const CreateTodoButton = (props) => {
-    const onClickedButton = (msg) => {
-        alert(msg);
+    const onClickedButton = () => {
+        props.setOpenModal(prevState => !prevState);
     }
     return(
         <button 
             className="CreateTodoButton"
-            onClick={()=>{
-                onClickedButton("CLICKED")
-            }}
+            onClick={onClickedButton}
         >
             +
         </button>

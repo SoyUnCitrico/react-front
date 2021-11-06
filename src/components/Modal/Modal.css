@@ -1,0 +1,13 @@
+.ModalBackground {
+  color: var(--main-color);
+  background-color: rgba(165, 198, 199, 0.842);
+  position: fixed;
+  top: -10px;
+  bottom: -10px;
+  left: -10px;
+  right: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}

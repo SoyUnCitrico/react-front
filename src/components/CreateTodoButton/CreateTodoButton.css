@@ -13,10 +13,10 @@
     bottom: 24px;
     right: 24px;
     align-items: center;
-
+    
     transform: rotate(0);
     transition: .1s ease;
-
+    z-index: 2;
 }
 
 .CreateTodoButton:hover {
