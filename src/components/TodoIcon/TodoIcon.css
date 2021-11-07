@@ -1,0 +1,32 @@
+.TodoIcon_container {
+  cursor: pointer;
+  display: grid;
+  overflow: hidden;
+  place-items: center;
+}
+
+.TodoIcon_container_check {
+  position: absolute;
+  left:16px;
+}
+
+.TodoIcon_container_delete {
+  position: absolute;
+  top: -16px;
+  right: 16px;
+}
+
+.TodoIcon_check, 
+.TodoIcon_delete {
+  width: 24px;
+  height: 24px;
+  transition: fill .2s;
+}
+
+.TodoIcon_container:hover .TodoIcon_check {
+  fill: #4caf50;
+}
+
+.TodoIcon_container:hover .TodoIcon_delete {
+  fill: #ff4242;
+}
